@@ -23,3 +23,21 @@ source .venv/bin/activate
 ```sh
 python -m pip install -r requirements.txt
 ```
+
+## fastapi
+
+```sh
+fastapi dev main.py
+```
+
+## cURL
+
+```sh
+curl --location 'http://127.0.0.1:8000/'
+```
+
+## API doc
+
+- [Swagger](http://127.0.0.1:8000/docs)
+
+- [Redoc](http://127.0.0.1:8000/redoc)
