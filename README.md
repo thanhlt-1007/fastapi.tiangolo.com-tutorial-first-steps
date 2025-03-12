@@ -10,3 +10,10 @@
 pyenv install 3.13.0
 pyenv global 3.13.0
 ```
+
+# venv
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+```
